@@ -1,5 +1,11 @@
 <resources>
-    <string name="app_name">DICON_DEV</string>
+    <string name="app_name">Golbal Dicon</string>
     <string name="global_dicon">Global Dicon</string>
     <string name="think_positive">Think Positive</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_library">Library</string>
+    <string name="menu_radio">Radio</string>
+    <string name="menu_notification">Notification</string>
+    <string name="description">Description</string>
 </resources>
