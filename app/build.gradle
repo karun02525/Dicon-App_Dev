@@ -3,6 +3,7 @@ apply plugin: 'kotlin-android'
 apply plugin: 'kotlin-android-extensions'
 apply plugin: 'kotlin-kapt'
 
+
 android {
     compileSdkVersion 29
     buildToolsVersion "29.0.3"
@@ -42,7 +43,7 @@ def coroutinesAdapterVersion = '0.9.2'
 def loggingInterceptorVersion = '3.9.1'
 def androidArchitectureVersion = "1.1.0"
 def koinVersion = '2.0.1'
-def glideVersion = '4.9.0'
+def glideVersion = '4.11.0'
 
 dependencies {
     implementation fileTree(dir: 'libs', include: ['*.jar'])
@@ -75,7 +76,35 @@ dependencies {
 
     //load image
     implementation "com.github.bumptech.glide:glide:$glideVersion"
+    implementation 'androidx.legacy:legacy-support-v4:1.0.0'
     kapt "com.github.bumptech.glide:compiler:$glideVersion"
+
+
+    //Push Noti
+    implementation 'com.google.firebase:firebase-messaging:20.1.7'
+    implementation 'com.google.firebase:firebase-iid:20.1.7'
+
+
+    // for Google Analytics. This is recommended, but not required.
+    implementation 'com.google.firebase:firebase-analytics-ktx:17.4.1'
+
+    //In App Messaging
+    implementation 'com.google.firebase:firebase-inappmessaging-display-ktx:19.0.6'
+    implementation 'com.google.guava:guava:27.0.1-android'
+    // implementation 'com.google.firebase:firebase-inappmessaging-display:19.0.6'
+
+    //Dynamic-links
+    implementation 'com.google.firebase:firebase-dynamic-links-ktx:19.1.0'
+
+    //Remote config
+    implementation 'com.google.firebase:firebase-config-ktx:19.1.4'
+
+    // Add the Firebase Crashlytics SDK.
+    implementation 'com.google.firebase:firebase-crashlytics:17.0.0'
+
+    implementation 'android.arch.work:work-runtime:1.0.1'
+
+
 
     //for testing
     implementation 'androidx.appcompat:appcompat:1.1.0'
@@ -90,3 +119,5 @@ dependencies {
 
 
 }
+apply plugin: 'com.google.gms.google-services'
+apply plugin: 'com.google.firebase.crashlytics'

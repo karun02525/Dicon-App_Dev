@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- START xml_defaults -->
+<defaultsMap>
+    <entry>
+        <key>app_name</key>
+        <value>PopWoot</value>
+    </entry>
+
+    <entry>
+        <key>app_theme_color</key>
+        <value>FF6D00</value>
+    </entry>
+
+</defaultsMap>
+    <!-- END xml_defaults -->

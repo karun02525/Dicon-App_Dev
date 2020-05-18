@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "778028573510",
+    "firebase_url": "https://dicon-5535f.firebaseio.com",
+    "project_id": "dicon-5535f",
+    "storage_bucket": "dicon-5535f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:778028573510:android:d1636e8333a3169834fb47",
+        "android_client_info": {
+          "package_name": "com.dicon"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "778028573510-n9u9hugfn1sprklpdpls7ilig0lc6li7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDFBRRRQ8WDefvnlQF15MY9D3mX0qC94hQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "778028573510-n9u9hugfn1sprklpdpls7ilig0lc6li7.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
